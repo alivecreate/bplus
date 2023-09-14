@@ -1,0 +1,48 @@
+.round-md {
+  width: 174px;
+  height: 174px;
+}
+.round-xs {
+  width: 40px;
+  height: 40px;
+}
+
+@media (max-width: 640px) {
+  .profile-modal {
+    width: 38%;
+    min-width: 300px;
+  }
+}
+
+@media (min-width: 640px) {
+  .profile-modal {
+    width: 28%;
+    min-width: 360px;
+  }
+}
+
+@media (min-width: 768px) {
+  .profile-modal {
+    width: 28%;
+  }
+}
+
+@media (min-width: 1024px) {
+  .profile-modal {
+    width: 28%;
+  }
+}
+
+@media (min-width: 1280px) {
+  .profile-modal {
+    width: 28%;
+    min-width: 340px;
+  }
+}
+
+@media (min-width: 1536px) {
+  .profile-modal {
+    width: 19%;
+    max-width: 500px;
+  }
+}
